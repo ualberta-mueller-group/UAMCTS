@@ -1,0 +1,15 @@
+setup.py
+MinAtar.egg-info/PKG-INFO
+MinAtar.egg-info/SOURCES.txt
+MinAtar.egg-info/dependency_links.txt
+MinAtar.egg-info/requires.txt
+MinAtar.egg-info/top_level.txt
+minatar/__init__.py
+minatar/environment.py
+minatar/gui.py
+minatar/environments/__init__.py
+minatar/environments/asterix.py
+minatar/environments/breakout.py
+minatar/environments/freeway.py
+minatar/environments/seaquest.py
+minatar/environments/space_invaders.py
