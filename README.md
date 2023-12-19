@@ -1,5 +1,5 @@
 # Monte Carlo Tree Search in the Presence of Model Uncertainty
-This is the readme file for running the experiments in the *Monte Carlo Tree Search in the Presence of Model Uncertainty* paper.
+This repository provides implementation for the paper [Monte Carlo Tree Search in the Presence of Transition Uncertainty]() (AAAI 2024).
 
 ## Libraries requirements
 You need to have installed Python 3.8. You also need to install PyTorch, NumPy, Matplotlib, torchvision, tqdm packages:
@@ -47,3 +47,6 @@ python3 Analyze.py --scenario SCENARIO --file_name FILE_NAME --plot_name
 - SCENARIO can be "online" or "offline".
 - PLOT_NAME is the name of the generated plot. The plot will be saved with name PLOT_NAME.png in the UAMCTS/Plot/ directory.
 - METRIC can be "num_steps" or "rewards".
+
+## References
+Young, K.; and Tian, T. 2019. MinAtar: An Atari-inspired testbed for thorough and reproducible Reinforcement Learn- ing experiments. arXiv preprint arXiv:1903.03176.
